@@ -9,4 +9,4 @@ def fibo(number):
         b = a + b 
     return result
 
-print(fibo(10000))
+print(fibo(10))
