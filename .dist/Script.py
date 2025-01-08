@@ -4,7 +4,7 @@ from googletrans import Translator
 translator = Translator()
 
 try:
-    with open('./asset./text.txt', mode='r', encoding='utf-8') as my_file:
+    with open('./.dist./asset./text.txt', mode='r', encoding='utf-8') as my_file:
         text = my_file.read()
         # Translate the content of the file to Japanese
         Jp_translation = translator.translate(text, dest="ja")
